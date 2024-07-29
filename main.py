@@ -44,6 +44,67 @@ print(math.pow(2,3))
 float("inf")
 float("-inf")
 
+#Arrays (called lists in python)
+
+arr = [1, 2, 3]
+print(arr)
+
+#can be used as a stack
+
+#pushing
+arr.append(4)
+arr.append(5)
+print(arr)
+
+#popping 
+arr.pop()
+print(arr)
+
+#also can be used as array too 
+arr.insert(1, 7)
+print(arr)
+
+arr[0] = 0 
+
+#careFul: -1 is nout out of bounds, 
+#it's the last value
+
+print(arr[-1])
+
+#slicing arrays 
+
+arr = [1,2,3,4]
+print(arr[1:3])
+
+#Unpacking 
+
+a , b , c = [1, 2, 3]
+
+#loop through arrays
+nums = [1,2,3]
+
+#using index
+
+for i in range(len(nums)): 
+    print(nums[i])
+
+#without index 
+
+for n in nums: 
+    print(n)
+
+#with index and value
+for i, n in enumerate(nums): 
+    print(i,n)
+
+
+    
+
+
+
+
+
+
 
 
 
