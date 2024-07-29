@@ -97,9 +97,28 @@ for n in nums:
 for i, n in enumerate(nums): 
     print(i,n)
 
+#loop through multiple arrays simulatneously 
+#with unpacking
 
-    
+nums1 = [1,2,3]
+nums2 = [4,5,6]
+for n1,n2 in zip(nums1,nums2): 
+    print(n1,n2)
 
+#reverse an arrya 
+
+nums = [1,2,3]
+nums.reverse()
+print(nums)
+
+#sorting
+
+arr = [3,4,5,1,3,12,4,5,7]
+arr.sort()
+print(arr)
+
+arr.sort(reverse=True)
+print(arr)
 
 
 
