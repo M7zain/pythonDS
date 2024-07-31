@@ -121,6 +121,9 @@ arr.sort(reverse=True)
 print(arr)
 
 
+arr.sort(reverse=False)
+
+
 
 
 
