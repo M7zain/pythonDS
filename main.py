@@ -136,6 +136,24 @@ print(arr)
 
 # output bob , doe , jane , alice
 
+#List comprehension 
+
+arr = [i for i in range(5)]
+print(arr)
+#output:[0, 1, 2, 3, 4]
+
+
+
+arr = [i+1 for i in range(5)]
+print(arr)
+#output:[1, 2, 3, 4, 5]
+
+#2-D lists 
+
+arr = [[0]* 4 for i in range(4)]
+print(arr)
+
+#output : a 4*4 all zeros 2d list [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 
 
