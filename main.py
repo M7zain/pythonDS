@@ -157,4 +157,16 @@ print(arr)
 
 
 
+#Strings are similar to arrays
+s = "abc"
+print(s[0:2])
+s += "def"
+print(s)
 
+
+#you may need to get the ASCII value
+#of a char 
+
+print(ord("a"))
+
+print(ord("b"))
