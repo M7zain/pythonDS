@@ -101,6 +101,7 @@ for i, n in enumerate(nums):
 #with unpacking
 
 nums1 = [1,2,3]
+nums2 = [4,5,6]
 for n1,n2 in zip(nums1,nums2): 
     print(n1,n2)
 
@@ -122,9 +123,18 @@ print(arr)
 
 arr.sort(reverse=False)
 
+#sorting a list of strings 
 
+arr =  ["bob" , "alice" , "jane", "doe"]
+arr.sort()
+print(arr)
+#output: alice , bob , doe , jane
 
+#Custom sort (by length of string)
+arr.sort(key=lambda x: len(x))
+print(arr)
 
+# output bob , doe , jane , alice
 
 
 
