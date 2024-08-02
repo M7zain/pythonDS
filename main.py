@@ -170,3 +170,12 @@ print(s)
 print(ord("a"))
 
 print(ord("b"))
+
+
+#double ended queue 
+
+from collections import deque
+
+queue = deque()
+
+queue.append(1)
